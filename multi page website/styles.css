@@ -8,8 +8,9 @@ img {
 }
 
 body {
+    text-decoration-color: crimson;
     background-color: aquamarine;
-    color: rgb(226, 43, 43);
+    color: rgb(255, 15, 15);
 }
 
 a {
