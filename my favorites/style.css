@@ -1,0 +1,16 @@
+#googlebtn:hover {
+    background-color: green;
+    color: black;
+}
+
+#spotifybtn:active {
+    width: 33%;
+    margin-left: 33%;
+    font-size: 40px;
+    background-color: greenyellow
+    color:aquamarine
+}
+#instagrambtn:visited {
+    background-color: white;
+    color: black;
+}
