@@ -1,14 +1,70 @@
 body {
-    background-color: rgb(61, 110, 243);
+    margin: 0;
     font-family: Arial;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+
+    background-color: lightblue;
 }
 
-h1 {
-    font-family: Georgia;
+header {
+    grid-column: 1 / 6;
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 20px;
 }
 
-div {
-    margin: 10px;
+main {
+    grid-column: 2 / 5;
+    padding: 20px;
+}
+
+footer {
+    grid-column: 1 / 6;
+    text-align: center;
+    background-color: navy;
+    color: white;
     padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+nav a:active {
+    color: red;
+}
+
+.box {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.pic {
+    width: 100%;
+}
+
+table, th, td {
     border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
 }
