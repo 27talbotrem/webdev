@@ -11,7 +11,7 @@ body {
 header {
     grid-column: 1 / 6;
     text-align: center;
-    background-color: navy;
+    background-color: rgb(70, 70, 211);
     color: white;
     padding: 20px;
 }
@@ -24,7 +24,7 @@ main {
 footer {
     grid-column: 1 / 6;
     text-align: center;
-    background-color: navy;
+    background-color: rgb(44, 44, 248);
     color: white;
     padding: 10px;
 }
